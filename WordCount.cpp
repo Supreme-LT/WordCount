@@ -201,4 +201,3 @@ int handle_file(){
         }while(_findnext(file_handle,&fileinfo)==0);//找到下一个 
         _findclose(file_handle);    //关闭文件链接 
 }
-
